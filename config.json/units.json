@@ -1,0 +1,44 @@
+{
+  "aliases": {
+    "hemoglobin": "haemoglobin",
+    "k+": "potassium"
+  },
+  "analytes": {
+    "glucose": {
+      "canonical_unit": "mmol/L",
+      "factors": {
+        "mmol/l": 1.0,
+        "mg/dl": 0.0555
+      }
+    },
+    "creatinine": {
+      "canonical_unit": "µmol/L",
+      "factors": {
+        "umol/l": 1.0,
+        "µmol/l": 1.0,
+        "mg/dl": 88.4
+      }
+    },
+    "haemoglobin": {
+      "canonical_unit": "g/L",
+      "factors": {
+        "g/l": 1.0,
+        "g/dl": 10.0
+      }
+    },
+    "cholesterol": {
+      "canonical_unit": "mmol/L",
+      "factors": {
+        "mmol/l": 1.0,
+        "mg/dl": 0.0259
+      }
+    },
+    "potassium": {
+      "canonical_unit": "mmol/L",
+      "factors": {
+        "mmol/l": 1.0,
+        "meq/l": 1.0
+      }
+    }
+  }
+}
